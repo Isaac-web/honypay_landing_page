@@ -20,7 +20,8 @@ const Home = () => {
         <title>Hanypay</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Hanypay is a leading provider of online payment processing, and
+          merchant solutions."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
