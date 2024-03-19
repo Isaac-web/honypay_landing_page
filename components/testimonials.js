@@ -12,7 +12,7 @@ const Testimonials = () => {
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-2xl max-sm:text-lg leading-normal ">
               Hanypay’s seamless integration and <Mark>top-notch security</Mark>{' '}
               impressed me. Our team now handles transactions effortlessly, and
               the customer support i s exceptional.
@@ -27,7 +27,7 @@ const Testimonials = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-2xl max-sm:text-lg leading-normal ">
               Switching to Hanypay was a breeze. Mike guided us through the
               process, and our payments are faster than ever. A
               <Mark>game-changer</Mark> for our marketing campaigns!
@@ -42,7 +42,7 @@ const Testimonials = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-2xl max-sm:text-lg leading-normal ">
               Dee.Chavda from Hanypay made the transition smooth. Transparent
               pricing, no PCI hassle, and a 22% cost savings.{' '}
               <Mark>Highly recommend!</Mark>
@@ -84,7 +84,7 @@ function Mark(props) {
   return (
     <>
       {' '}
-      <mark className="text-white bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-red-400 dark:bg-red-400 dark:text-white">
+      <mark className="text-white bg-red-100 rounded-md ring-red-200 ring-4 dark:ring-red-400 dark:bg-red-400 dark:text-white">
         {props.children}
       </mark>{' '}
     </>

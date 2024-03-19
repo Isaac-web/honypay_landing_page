@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              Welcome to Hanypay{' '}
+              Welcome to Hanypay <br className="max-sm:hidden" />
               <span className="xl:text-5xl">
                 Your Gateway to Seamless Transactions with AKL Currency
               </span>
@@ -27,7 +27,7 @@ const Hero = () => {
                 href="#"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-primary rounded-md "
               >
                 Create an account
               </a>
@@ -51,7 +51,7 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-red-500">2000+</span> customers
+            Trusted by <span className="text-primary">2000+</span> customers
             worldwide
           </div>
 
