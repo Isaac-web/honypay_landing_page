@@ -69,7 +69,7 @@ const Home = () => {
         <Cta />
       </ContentWrapper>
       <Footer />
-      <PopupWidget />
+      {/* <PopupWidget /> */}
     </>
   );
 };

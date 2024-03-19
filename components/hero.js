@@ -27,7 +27,7 @@ const Hero = () => {
                 href="#"
                 target="_blank"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-red-500 rounded-md "
               >
                 Create an account
               </a>
@@ -51,7 +51,7 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-indigo-600">2000+</span> customers
+            Trusted by <span className="text-red-500">2000+</span> customers
             worldwide
           </div>
 
