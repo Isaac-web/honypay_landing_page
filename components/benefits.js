@@ -15,10 +15,10 @@ const Benefits = (props) => {
           <div>
             <Image
               src={data.image}
-              width="521"
+              width="500"
               height="auto"
               alt="Benefits"
-              className={'object-cover'}
+              className={'object-cover rounded-xl max-h-[40em]'}
               placeholder="blur"
               blurDataURL={data.image.src}
             />

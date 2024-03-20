@@ -14,8 +14,9 @@ import {
   WrenchScrewdriverIcon,
 } from '@heroicons/react/24/solid';
 
-import benefitOneImg from '../public/img/benefit-one.png';
-import benefitTwoImg from '../public/img/benefit-two.png';
+import benefitOneImg from '../public/img/benefit-one.jpg';
+import benefitTwoImg from '../public/img/benefit-two.jpg';
+import benefitThreeImg from '../public/img/benefit_three.jpg';
 
 const benefitOne = {
   title: 'Secure and Efficient Transactions',
@@ -66,7 +67,7 @@ const benefitTwo = {
 const benefitThree = {
   title: '24/7 Customer Support',
   desc: "We understand the importance of reliable customer support, which is why our dedicated team is available 24/7 to assist you with any inquiries or issues you may encounter. Rest assured, we're here to ensure your experience with Hanypay is nothing short of exceptional.",
-  image: benefitTwoImg,
+  image: benefitThreeImg,
   bullets: [
     {
       title: 'Round-the-clock support',

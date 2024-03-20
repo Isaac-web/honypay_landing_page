@@ -84,7 +84,7 @@ function Mark(props) {
   return (
     <>
       {' '}
-      <mark className="text-white bg-red-100 rounded-md ring-red-200 ring-4 dark:ring-red-400 dark:bg-red-400 dark:text-white">
+      <mark className="text-gray-900 bg-red-300 rounded-md ring-red-300 ring-4 dark:ring-red-400 dark:bg-red-400 dark:text-white">
         {props.children}
       </mark>{' '}
     </>

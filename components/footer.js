@@ -4,7 +4,7 @@ import React from 'react';
 import Container from './container';
 
 export default function Footer() {
-  const navigation = ['Product', 'Features', 'Pricing', 'Company', 'Blog'];
+  const navigation = ['Product', 'Features', 'Pricing', 'Company', 'Contact'];
   const legal = ['Terms', 'Privacy', 'Legal'];
   return (
     <div className="relative">
@@ -15,16 +15,11 @@ export default function Footer() {
               {' '}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-red-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-2xl font-medium  dark:text-gray-100"
               >
-                <Image
-                  src="/img/logo.svg"
-                  alt="N"
-                  width="32"
-                  height="32"
-                  className="w-8"
-                />
-                <span>Hanypay</span>
+                <span>
+                  <span className="font-black text-primary">Hany</span>pay
+                </span>
               </Link>
             </div>
 

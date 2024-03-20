@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import Hero from '../components/hero';
-import Navbar from '../components/navbar';
 import SectionTitle from '../components/sectionTitle';
 
 import { benefitOne, benefitThree, benefitTwo } from '../components/data';
 import Video from '../components/video';
 import Benefits from '../components/benefits';
-import Footer from '../components/footer';
+
 import Testimonials from '../components/testimonials';
 import Cta from '../components/cta';
 import Faq from '../components/faq';
@@ -26,9 +25,15 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
       <ContentWrapper>
         <Hero />
+        <SectionTitle pretitle="Who We Are" title="What is Hanypay?">
+          At Hanypay, we're revolutionizing the way you handle transactions with
+          our advanced payment gateway tailored specifically for AKL currency.
+          Say goodbye to the hassle of traditional banking systems and embrace
+          the future of finance with our intuitive AKL wallet integration.
+        </SectionTitle>
+
         <SectionTitle
           pretitle="Hanypay Benefits"
           title="Why should you use hanypay"
@@ -68,7 +73,6 @@ const Home = () => {
         <Faq />
         <Cta />
       </ContentWrapper>
-      <Footer />
       {/* <PopupWidget /> */}
     </>
   );
